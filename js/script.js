@@ -9,3 +9,9 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$("#shoot").click(function() {
+    var rpsc = Math.random;
+        if(rpsc < .9){
+            console.log ("rock win");
+        }
+)};
